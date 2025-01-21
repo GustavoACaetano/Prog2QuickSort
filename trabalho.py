@@ -1,4 +1,5 @@
 import pickle
+import os
 
 
 def menu():
@@ -7,8 +8,8 @@ def menu():
 
 
 def leArquivoBin(nomeArquivo):
-    if (os.path.isfile(".bin")):
-        with open('.bin', 'rb') as arq:
+    if (os.path.isfile(f"{nomeArquivo}.bin")):
+        with open(f"{nomeArquivo}.bin", 'rb') as arq:
             jogadores = pickle.load(arq)
 
 
