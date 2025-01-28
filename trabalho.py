@@ -1,6 +1,7 @@
 """
 Feito por:
 
+- Davi Henrique Comério
 - Gustavo Alves Caetano
 - João Pedro Zamborlini Barcellos
 """
@@ -32,7 +33,14 @@ def read_file_name():
 
 
 def main():
-    print(read_file_bin(read_file_name()))
+    dict_arquivo = read_file_bin(read_file_name())
+    matriculas = list(dict_arquivo.keys())
+    print(matriculas)
+
+
+
+
+
 
     return 0
 
