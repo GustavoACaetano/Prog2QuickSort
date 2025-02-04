@@ -1,0 +1,10 @@
+Ana 42
+Bruna 42
+Carol 42
+Rita 42
+Bruno 42
+Joao 42
+Pedro 40
+Maria 35
+Jose 0
+Thiago 0

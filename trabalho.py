@@ -1,11 +1,20 @@
+"""
+Feito por:
+
+Davi Henrique Comério
+Gustavo Alves Caetano
+João Pedro Zamborlini Barcellos
+
+"""
+
+
 import pickle
 import os
 
 
 def menu() -> None:
-    print('')
-    print('---------------------------------- O melhor programa de ordenação! ----------------------------------')
-    print('')
+    """ Imprime o título """ 
+    print('\n---------------------------------- O melhor programa de ordenação! ----------------------------------\n')
 
 
 def read_file_bin(nome_arquivo: str) -> dict:
@@ -146,3 +155,4 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
+    
